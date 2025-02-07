@@ -1,13 +1,12 @@
-# Vowel Removal Program
+# Vowel Removal
 
-This program removes vowels from user-provided text and allows input via manual entry or file loading. The processed text can be saved to a file for later use.
+This C project removes vowels from user-provided text and allows you to input the text manually or load it from a file. Once the vowels are removed, you can save the processed text to a file for future use.
 
-- **Vowel Removal**: Eliminates all vowels from the input text.
-- **File Handling**: Supports loading text from a file and saving processed text to a file.
-- **Interactive Input**: Users can manually enter text for processing.
-- **User-Friendly Execution**: Allows input selection and provides real-time output.
+The way it works is by taking your input, removing all vowels from it, and either displaying the output right away or allowing you to save it to a file. You can choose to enter the text manually, or you can load it from a file. After the processing, the cleaned-up text is shown on the screen, and if you like, you can save it to a file for later reference.
 
-## Example Usage
+I created this project to make text manipulation easier, especially when working with large amounts of text where vowel removal is needed for certain tasks or analysis. It was a fun challenge to build, and it helped me practice file handling, user input processing, and providing real-time output in a simple way.
+
+## Example Output
 ```
 Choose input method:
 1 - Manual Entry
